@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="29px" viewBox="0 0 38 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>分组</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-160.000000, -26.000000)" fill="#FF6536">
+            <g id="分组" transform="translate(160.000000, 26.000000)">
+                <rect id="Rectangle-2" x="0.15235828" y="0.03808957" width="4.64692754" height="20.111293" rx="2.32346377"></rect>
+                <rect id="Rectangle-2-Copy" x="8.15116798" y="0.03808957" width="4.64692754" height="20.111293" rx="2.32346377"></rect>
+                <rect id="Rectangle-2-Copy-2" x="16.2261568" y="0.03808957" width="4.64692754" height="20.111293" rx="2.32346377"></rect>
+                <path d="M30.738283,-4.45647969 L30.738283,-4.45647969 C32.0214966,-4.45647969 33.0617468,-3.41622953 33.0617468,-2.13301592 L33.0617468,6.77994346 C33.0617468,8.06315707 32.0214966,9.10340723 30.738283,9.10340723 L30.738283,9.10340723 C29.4550694,9.10340723 28.4148192,8.06315707 28.4148192,6.77994346 L28.4148192,-2.13301592 C28.4148192,-3.41622953 29.4550694,-4.45647969 30.738283,-4.45647969 Z" id="Rectangle-2-Copy-3" transform="translate(30.738283, 2.323464) rotate(90.000000) translate(-30.738283, -2.323464) "></path>
+                <path d="M30.2812082,3.99940485 L30.2812082,3.99940485 C31.5644218,3.99940485 32.6046719,5.03965501 32.6046719,6.32286862 L32.6046719,14.3216783 C32.6046719,15.6048919 31.5644218,16.6451421 30.2812082,16.6451421 L30.2812082,16.6451421 C28.9979945,16.6451421 27.9577444,15.6048919 27.9577444,14.3216783 L27.9577444,6.32286862 C27.9577444,5.03965501 28.9979945,3.99940485 30.2812082,3.99940485 Z" id="Rectangle-2-Copy-4" transform="translate(30.281208, 10.322273) rotate(90.000000) translate(-30.281208, -10.322273) "></path>
+                <text id="CONNECT-TALENTS" font-family="PingFangSC-Medium, PingFang SC" font-size="4" font-weight="400" letter-spacing="-0.200000003">
+                    <tspan x="0" y="28">CONNECT TALENT</tspan>
+                    <tspan x="33.8" y="28">S</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,266 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+@import url('../assets/font-icon/iconfont.css');
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video, input, textarea {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font-weight: normal;
+     font-family: PingFangSC-Medium;
+     vertical-align: baseline;
+ }
+ html, body, div, p, span, ul, li, h1, h2, h3, h4, h5, h6 {
+     color: #333333;
+ }
+ button > span {
+    color: #fff;
+ }
+ 
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, menu, nav, section {
+     display: block;
+ }
+ 
+ body {
+     line-height: 1;
+ }
+ 
+ blockquote, q {
+     quotes: none;
+ }
+ 
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: none;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ 
+ /* custom */
+ a {
+     color: #333333;
+     text-decoration: none;
+     -webkit-backface-visibility: hidden;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 5px;
+     height: 5px;
+ }
+ 
+ ::-webkit-scrollbar-track-piece {
+     background-color: rgba(0, 0, 0, 0.2);
+     -webkit-border-radius: 6px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:vertical {
+     height: 5px;
+     background-color: rgba(125, 125, 125, 0.7);
+     -webkit-border-radius: 6px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:horizontal {
+     width: 5px;
+     background-color: rgba(125, 125, 125, 0.7);
+     -webkit-border-radius: 6px;
+ }
+ 
+ html, body {
+    //  width: 100%;
+     height: 100%;
+ }
+ 
+ body {
+     -webkit-text-size-adjust: none;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
+#app{
+    height: 100%;
+}
+.main-cont {
+    max-width: 940px;
+}
+.cont-box-card {
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 8px 0px rgba(0,0,0,0.1);
+    border-radius:3px;
+}
+.w192 {
+    min-width: 192px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.mr60 {
+    margin-right: 60px;
+}
+.line3, .line4{
+    max-height: 60px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.line4 {
+    max-height: 80px;
+    -webkit-line-clamp: 4;
+}
+.flex-1 {
+    flex: 1;
+}
+.text-left {
+    text-align: left;
+}   
+.text-centerr {
+    text-align: center;
+}
+.el-message-box__wrapper {
+    margin-top: -100px;
+    .el-message-box {
+        max-width: 400px;
+        padding-bottom: 40px;
+        .el-message-box__header {
+            padding: 20px;
+            padding-bottom: 0;
+        }
+        .el-message-box__title {
+            text-align: center;
+            line-height: 28px;
+            span {
+                font-size: 20px;
+                color: #333333;
+                font-weight: 600;
+            }
+        }
+        .el-message-box__headerbtn {
+            i {
+                font-size: 20px;
+                color: #000000;
+                font-weight: 600;
+            }
+        }
+        .el-message-box__content {
+            padding: 20px 38px;
+            font-size: 16px;
+            color: #666666;
+            .el-message-box__message {
+                p {
+                    line-height: 22px;
+                    color: #666666;
+                }
+            }
+        }
+        .el-message-box__btns {
+            text-align: center;
+            .el-button {
+                width: 120px;
+                height: 32px;
+                line-height: 30px;
+                border-radius: 4px;
+                padding: 0;
+                font-size: 14px;
+                &.border {
+                    border:1px solid rgba(255,101,54,1);
+                    span {
+                        color: #FF6536;
+                    }
+                }
+                &.solid {
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+            .el-button + .el-button {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+// 省略页面样式
+.no-content {
+    margin-top: 50px;
+    padding-bottom: 60px;
+    p {
+        line-height: 22px;
+        margin-top: 20px;
+        font-size: 16px !important;
+        color: #333333 !important;
+    }
+    .el-button {
+        width: 260px;
+        height: 45px;
+        line-height: 44px;
+        padding: 0;
+        margin-top: 38px;
+        span {
+            font-size: 18px;
+            color: #fff;
+        }
+        
+    }
+    .mb100 {
+        margin-bottom: 100px;
+    }
+}
+
+.el-form-item>label {
+    margin-right: 0 !important;
+}
+
+// 首页浮窗
+.weix-slot-content {
+    // width: 120px;
+    // height: 120px;
+    padding: 0 !important;
+    background: rgba(255,255,255,1) !important;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1) !important;
+    border: none !important;
+    .popper__arrow {
+        border-color: transparent transparent transparent rgb(255, 255, 255) !important;
+        border-width: 6px 0 6px 10px !important;
+    }
+}
+.call-slot-content {
+    background: rgba(255,255,255,1) !important;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1) !important;
+    border: none !important;
+    .popper__arrow {
+        border-color: transparent transparent transparent rgb(255, 255, 255) !important;
+        border-width: 6px 0 6px 10px !important;
+    }
+}
